@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922AE301280E83530035BB36 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE300280E83530035BB36 /* Lecture.swift */; };
+		922AE304280E83D90035BB36 /* GetLecturesListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE303280E83D90035BB36 /* GetLecturesListUseCase.swift */; };
+		922AE306280E86010035BB36 /* DeleteLectureUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE305280E86010035BB36 /* DeleteLectureUseCase.swift */; };
+		922AE308280E87540035BB36 /* AddLectureUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE307280E87540035BB36 /* AddLectureUseCase.swift */; };
+		922AE30B280E88520035BB36 /* LecturesRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE30A280E88520035BB36 /* LecturesRepos.swift */; };
+		922AE30F280E89110035BB36 /* LecturesRepoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE30E280E89110035BB36 /* LecturesRepoLocal.swift */; };
+		922AE313280E8CBD0035BB36 /* LecturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE312280E8CBD0035BB36 /* LecturesViewModel.swift */; };
+		922AE318280EA17B0035BB36 /* LectureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE317280EA17B0035BB36 /* LectureContentView.swift */; };
+		922AE31B280EA48F0035BB36 /* ContentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE31A280EA48F0035BB36 /* ContentModifier.swift */; };
+		922AE31D280EA6FB0035BB36 /* LecturesSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE31C280EA6FB0035BB36 /* LecturesSearchView.swift */; };
+		922AE31F280EA97D0035BB36 /* LecturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE31E280EA97D0035BB36 /* LecturesListView.swift */; };
+		922AE321280EAA990035BB36 /* LectureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE320280EAA990035BB36 /* LectureRow.swift */; };
+		922AE323280EAE1A0035BB36 /* CreateLectureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE322280EAE1A0035BB36 /* CreateLectureView.swift */; };
 		92C0D5F9280C54EE00CBBE21 /* o_smisleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D5F8280C54EE00CBBE21 /* o_smisleApp.swift */; };
 		92C0D5FB280C54EE00CBBE21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D5FA280C54EE00CBBE21 /* ContentView.swift */; };
 		92C0D5FD280C54F000CBBE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0D5FC280C54F000CBBE21 /* Assets.xcassets */; };
@@ -14,6 +27,7 @@
 		92C0D60A280C54F100CBBE21 /* o_smisleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D609280C54F100CBBE21 /* o_smisleTests.swift */; };
 		92C0D614280C54F100CBBE21 /* o_smisleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D613280C54F100CBBE21 /* o_smisleUITests.swift */; };
 		92C0D616280C54F100CBBE21 /* o_smisleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D615280C54F100CBBE21 /* o_smisleUITestsLaunchTests.swift */; };
+		92FCAEDE28107751007262F1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCAEDD28107751007262F1 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922AE300280E83530035BB36 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		922AE303280E83D90035BB36 /* GetLecturesListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLecturesListUseCase.swift; sourceTree = "<group>"; };
+		922AE305280E86010035BB36 /* DeleteLectureUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteLectureUseCase.swift; sourceTree = "<group>"; };
+		922AE307280E87540035BB36 /* AddLectureUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLectureUseCase.swift; sourceTree = "<group>"; };
+		922AE30A280E88520035BB36 /* LecturesRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesRepos.swift; sourceTree = "<group>"; };
+		922AE30E280E89110035BB36 /* LecturesRepoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesRepoLocal.swift; sourceTree = "<group>"; };
+		922AE312280E8CBD0035BB36 /* LecturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesViewModel.swift; sourceTree = "<group>"; };
+		922AE317280EA17B0035BB36 /* LectureContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureContentView.swift; sourceTree = "<group>"; };
+		922AE31A280EA48F0035BB36 /* ContentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModifier.swift; sourceTree = "<group>"; };
+		922AE31C280EA6FB0035BB36 /* LecturesSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesSearchView.swift; sourceTree = "<group>"; };
+		922AE31E280EA97D0035BB36 /* LecturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesListView.swift; sourceTree = "<group>"; };
+		922AE320280EAA990035BB36 /* LectureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRow.swift; sourceTree = "<group>"; };
+		922AE322280EAE1A0035BB36 /* CreateLectureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLectureView.swift; sourceTree = "<group>"; };
 		92C0D5F5280C54EE00CBBE21 /* o'smisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "o'smisle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C0D5F8280C54EE00CBBE21 /* o_smisleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_smisleApp.swift; sourceTree = "<group>"; };
 		92C0D5FA280C54EE00CBBE21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,7 @@
 		92C0D60F280C54F100CBBE21 /* o'smisleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "o'smisleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C0D613280C54F100CBBE21 /* o_smisleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_smisleUITests.swift; sourceTree = "<group>"; };
 		92C0D615280C54F100CBBE21 /* o_smisleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_smisleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92FCAEDD28107751007262F1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922AE2FA280E82250035BB36 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				922AE309280E88350035BB36 /* repos */,
+				922AE302280E83BB0035BB36 /* useCases */,
+				922AE2FB280E82300035BB36 /* models */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		922AE2FB280E82300035BB36 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				922AE300280E83530035BB36 /* Lecture.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		922AE302280E83BB0035BB36 /* useCases */ = {
+			isa = PBXGroup;
+			children = (
+				922AE303280E83D90035BB36 /* GetLecturesListUseCase.swift */,
+				922AE305280E86010035BB36 /* DeleteLectureUseCase.swift */,
+				922AE307280E87540035BB36 /* AddLectureUseCase.swift */,
+			);
+			path = useCases;
+			sourceTree = "<group>";
+		};
+		922AE309280E88350035BB36 /* repos */ = {
+			isa = PBXGroup;
+			children = (
+				922AE30A280E88520035BB36 /* LecturesRepos.swift */,
+			);
+			path = repos;
+			sourceTree = "<group>";
+		};
+		922AE30C280E88EE0035BB36 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				922AE30D280E88F50035BB36 /* repos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		922AE30D280E88F50035BB36 /* repos */ = {
+			isa = PBXGroup;
+			children = (
+				922AE30E280E89110035BB36 /* LecturesRepoLocal.swift */,
+			);
+			path = repos;
+			sourceTree = "<group>";
+		};
+		922AE310280E8C5B0035BB36 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				922AE319280EA46D0035BB36 /* modifiers */,
+				922AE311280E8C790035BB36 /* viewModels */,
+				922AE314280E920B0035BB36 /* views */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		922AE311280E8C790035BB36 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				922AE312280E8CBD0035BB36 /* LecturesViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		922AE314280E920B0035BB36 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				922AE31E280EA97D0035BB36 /* LecturesListView.swift */,
+				922AE320280EAA990035BB36 /* LectureRow.swift */,
+				92C0D5FA280C54EE00CBBE21 /* ContentView.swift */,
+				922AE322280EAE1A0035BB36 /* CreateLectureView.swift */,
+				922AE31C280EA6FB0035BB36 /* LecturesSearchView.swift */,
+				922AE317280EA17B0035BB36 /* LectureContentView.swift */,
+				92FCAEDD28107751007262F1 /* LoginView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		922AE319280EA46D0035BB36 /* modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				922AE31A280EA48F0035BB36 /* ContentModifier.swift */,
+			);
+			path = modifiers;
+			sourceTree = "<group>";
+		};
 		92C0D5EC280C54EE00CBBE21 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +214,10 @@
 		92C0D5F7280C54EE00CBBE21 /* o'smisle */ = {
 			isa = PBXGroup;
 			children = (
+				922AE30C280E88EE0035BB36 /* data */,
+				922AE2FA280E82250035BB36 /* domain */,
+				922AE310280E8C5B0035BB36 /* presentation */,
 				92C0D5F8280C54EE00CBBE21 /* o_smisleApp.swift */,
-				92C0D5FA280C54EE00CBBE21 /* ContentView.swift */,
 				92C0D5FC280C54F000CBBE21 /* Assets.xcassets */,
 				92C0D5FE280C54F000CBBE21 /* Preview Content */,
 			);
@@ -215,6 +337,8 @@
 				Base,
 			);
 			mainGroup = 92C0D5EC280C54EE00CBBE21;
+			packageReferences = (
+			);
 			productRefGroup = 92C0D5F6280C54EE00CBBE21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +381,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922AE308280E87540035BB36 /* AddLectureUseCase.swift in Sources */,
+				922AE30B280E88520035BB36 /* LecturesRepos.swift in Sources */,
+				922AE30F280E89110035BB36 /* LecturesRepoLocal.swift in Sources */,
+				922AE301280E83530035BB36 /* Lecture.swift in Sources */,
+				922AE306280E86010035BB36 /* DeleteLectureUseCase.swift in Sources */,
+				922AE304280E83D90035BB36 /* GetLecturesListUseCase.swift in Sources */,
+				922AE313280E8CBD0035BB36 /* LecturesViewModel.swift in Sources */,
+				922AE31D280EA6FB0035BB36 /* LecturesSearchView.swift in Sources */,
+				922AE323280EAE1A0035BB36 /* CreateLectureView.swift in Sources */,
 				92C0D5FB280C54EE00CBBE21 /* ContentView.swift in Sources */,
 				92C0D5F9280C54EE00CBBE21 /* o_smisleApp.swift in Sources */,
+				922AE318280EA17B0035BB36 /* LectureContentView.swift in Sources */,
+				922AE31B280EA48F0035BB36 /* ContentModifier.swift in Sources */,
+				922AE31F280EA97D0035BB36 /* LecturesListView.swift in Sources */,
+				92FCAEDE28107751007262F1 /* LoginView.swift in Sources */,
+				922AE321280EAA990035BB36 /* LectureRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +561,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +592,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

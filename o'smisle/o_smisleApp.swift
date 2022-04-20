@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct o_smisleApp: App {
+@Environment(\.scenePhase) private var scenePhase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+        }.onChange(of: scenePhase) { phase in
+            if phase == .background {
+                // TODO:
+            }
         }
     }
 }
