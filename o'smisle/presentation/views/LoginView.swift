@@ -32,7 +32,7 @@ struct LoginView: View {
                 HStack{
 //                    Text("Email")
 //                    Spacer()
-                    TextField("Email", text: $login) .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("Login", text: $login) .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
                 HStack{
 //                    Text("Password")
