@@ -20,6 +20,7 @@
 		922AE31F280EA97D0035BB36 /* LecturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE31E280EA97D0035BB36 /* LecturesListView.swift */; };
 		922AE321280EAA990035BB36 /* LectureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE320280EAA990035BB36 /* LectureRow.swift */; };
 		922AE323280EAE1A0035BB36 /* CreateLectureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AE322280EAE1A0035BB36 /* CreateLectureView.swift */; };
+		92A2BCFE28154D2E0031BA8E /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2BCFD28154D2E0031BA8E /* QuoteView.swift */; };
 		92C0D5F9280C54EE00CBBE21 /* o_smisleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D5F8280C54EE00CBBE21 /* o_smisleApp.swift */; };
 		92C0D5FB280C54EE00CBBE21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0D5FA280C54EE00CBBE21 /* ContentView.swift */; };
 		92C0D5FD280C54F000CBBE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0D5FC280C54F000CBBE21 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		922AE31E280EA97D0035BB36 /* LecturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesListView.swift; sourceTree = "<group>"; };
 		922AE320280EAA990035BB36 /* LectureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRow.swift; sourceTree = "<group>"; };
 		922AE322280EAE1A0035BB36 /* CreateLectureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLectureView.swift; sourceTree = "<group>"; };
+		92A2BCFD28154D2E0031BA8E /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		92C0D5F5280C54EE00CBBE21 /* o'smisle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "o'smisle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C0D5F8280C54EE00CBBE21 /* o_smisleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_smisleApp.swift; sourceTree = "<group>"; };
 		92C0D5FA280C54EE00CBBE21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				922AE31C280EA6FB0035BB36 /* LecturesSearchView.swift */,
 				922AE317280EA17B0035BB36 /* LectureContentView.swift */,
 				92FCAEDD28107751007262F1 /* LoginView.swift */,
+				92A2BCFD28154D2E0031BA8E /* QuoteView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				922AE304280E83D90035BB36 /* GetLecturesListUseCase.swift in Sources */,
 				922AE313280E8CBD0035BB36 /* LecturesViewModel.swift in Sources */,
 				922AE31D280EA6FB0035BB36 /* LecturesSearchView.swift in Sources */,
+				92A2BCFE28154D2E0031BA8E /* QuoteView.swift in Sources */,
 				922AE323280EAE1A0035BB36 /* CreateLectureView.swift in Sources */,
 				92C0D5FB280C54EE00CBBE21 /* ContentView.swift in Sources */,
 				92C0D5F9280C54EE00CBBE21 /* o_smisleApp.swift in Sources */,

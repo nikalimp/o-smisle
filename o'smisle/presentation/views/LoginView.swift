@@ -44,6 +44,23 @@ struct LoginView: View {
                 .disabled(login.isEmpty || password.isEmpty)
                 }.frame(maxWidth: 264).padding(.top, 36)
             }
+            HStack {
+                Image("001")
+                    .resizable()
+                    .frame(width: 60, height: 60)
+                    .cornerRadius(30)
+                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 10))
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text ("Самый темный час – перед рассветом")
+                            .font(.system(size: 16, weight: .bold))
+                        }
+                    Spacer().frame(height:6)
+                    HStack {
+                            Text("Пауло Коэльо").font(.system(size:14))
+                        }
+                    }
+        }.padding(6)
         }
         .onReceive(keyboardIsOnPublisher) { isKeyboardOn in withAnimation(Animation.easeInOut(duration: 0.5)) {
 //        self.shouldShowLogo = !isKeyboardOn
