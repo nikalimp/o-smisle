@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {}
+    
     @StateObject var viewModel = LecturesViewModel()
     
     var body: some View {

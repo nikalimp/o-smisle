@@ -13,11 +13,23 @@ struct o_smisleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
-        }.onChange(of: scenePhase) { phase in
-            if phase == .background {
-                // TODO:
-            }
+            ContainerView()
         }
+//        .onChange(of: scenePhase) { phase in
+//            if phase == .background {
+//                // TODO:
+//            }
+//        }
     }
 }
+
+//struct ContainerView: View {
+//@State private var shouldShowMainView: Bool = false
+//var body: some View { NavigationView {
+//HStack {
+//LoginView(isUserLoggedIn: $shouldShowMainView)
+//NavigationLink(destination: ContentView(), isActive:
+//$shouldShowMainView) { EmptyView()
+//}
+//} }
+//} }
